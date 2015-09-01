@@ -1,0 +1,124 @@
+.footer{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background:#fff;
+    border-top:#e6e6e6 1px solid;
+    border-bottom:#e6e6e6 1px solid;
+}
+.footer-main{
+    width:1200px;
+    margin:0 auto;
+}
+.footer-main div{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    border-bottom:#e6e6e6 1px solid;
+}
+
+.footer-main div.statement{
+    height:108px;
+}
+.footer-main div.statement span,.footer-main div.statement p{
+    margin-top:32px;
+}
+
+.footer-main div.teamwork{
+    height: 72px;
+}
+.footer-main div.teamwork span{
+    margin-top:16px;
+}
+.footer-main div.teamwork p{
+    line-height: 72px;
+}
+.footer-main div.zl-link{
+    height: auto;
+    min-height: 88px;
+    border-bottom:0;
+}
+.footer-main div.zl-link div{
+    margin-top:20px;
+    width:1110px;
+    float:right;
+    border-bottom:0;
+}
+.footer-main div.zl-link span{
+    margin-top:22px;
+}
+.footer-main span{
+    width:24px;
+    display:block;
+    float:left;
+    color:#fff;
+    padding:6px 12px;
+    margin-right:40px;
+}
+.footer-main span.zl-gray{
+    background: #b4b4b4;
+}
+.footer-main span.zl-blue{
+    background: #006599;
+}
+.footer-main p{
+    line-height: 20px;
+    color:#666;
+}
+.teamwork p{
+    font-size: 14px;
+}
+.footer-main a{
+    float:left;
+    width:92px;
+    font-size:12px;
+    margin:4px 0;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer-main a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    width:100%;
+    background: #fff;
+    height: auto;
+    overflow: hidden;
+    color:#666;
+}
+.copyright-main{
+    width:1200px;
+    margin:0 auto;
+    height:100px;
+    padding:28px 0;
+}
+
+.copyright ul{
+    width:500px;
+    height:14px;
+    line-height: 14px;
+    margin:0 auto;
+}
+.copyright ul li{
+    float:left;
+    width:62px;
+}
+.copyright ul li a{
+    display:block;
+    float: left;
+    padding-right:4px;
+}
+.copyright p{
+    text-align:center;
+    margin-top:24px;
+}
+.copyright span{
+    text-align: center;
+    display:block;
+    margin-top:10px;
+    height: 38px;
+    line-height: 38px;
+    background: url("../images/footerico.jpg") no-repeat 812px center;
+}

@@ -1,0 +1,50 @@
+.newboydbcg{ background-color: #F7F7F7}
+/**面包屑**/
+.mian-box{height:43px; margin-left:auto; margin-right: auto; background-color: #ffffff; border-bottom: 1px solid #EBEBEB}
+.mian-main{width:1200px; line-height: 43px; margin-left:auto; margin-right: auto;}
+.mian-main .lwz{ display: inline-block;float:left;}
+.mian-main .lwz a{float:left; font-size:14px; color:#999999;}
+.mian-main .lwz span{font-size:12px; color:#999999;float:left; padding:0px 10px;}
+.mian-main .lwz strong{font-size:16px; color:#333333; float:left;}
+
+.Year-box{width:1200px; margin-left:auto; margin-right: auto; overflow: hidden; padding:15px 0px;}
+.Year-box a{ display: block;width:64px;height:28px; font-size:16px; font-family: "Microsoft YaHei", SimSun, Tahoma, Verdana, Arial, sans-serif; color:#666666; float:left; text-align: center; line-height: 28px; margin-right:10px;}
+.Year-box a:hover{ background-color: #e0e0e0;color:#666666; text-decoration: none; border-radius:5px;}
+.Year-box a.on{ background-color: #008BD1;color:#ffffff; text-decoration: none; border-radius:5px;}
+.zazhi-list{width:1200px; margin-right: auto; margin-left: auto;  }
+.zazhi-list ul{width:100%;flaot:left;}
+.zazhi-list ul li{width:240px;float:left; background-color: #ffffff; padding:20px 20px 0px 20px; float:left; margin: 0px 20px 30px 0px;}
+.zazhi-list ul li:hover{  -moz-box-shadow: 0 0 12px #d5d5d5;
+    -ms-box-shadow: 0 0 12px #d5d5d5;
+    -webkit-box-shadow: 0 0 12px #d5d5d5;
+    box-shadow: 0 0 12px #d5d5d5;}
+.zazhi-list ul li img{border:1px solid #dfdfdf; float:left;}
+.zazhi-list ul li div.bcont{width:100%; float:left; margin-top:15px;}
+.zazhi-list ul li strong{ float:left; font-size:14px; color:#666666; line-height:29px; }
+.zazhi-list ul li strong b{ padding:0px 5px;font-weight:normal;}
+.zazhi-list ul li span{float:right; }
+.zazhi-list ul li span em{ background-color: #FD4526; padding:2px 8px 2px 2px; color:#ffffff;font-size:20px; font-style: italic}
+.zazhi-list ul li.top-d{ height:368px; background-color:#ffffff;}
+.zazhi-list ul li.top-d img{border:0px; margin:130px 0px 0px 85px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

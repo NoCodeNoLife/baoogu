@@ -1,0 +1,37 @@
+.newboydbcg{ background-color: #F7F7F7}
+
+/**面包屑**/
+.mian-box{height:43px; margin-left:auto; margin-right: auto; background-color: #ffffff; border-bottom: 1px solid #EBEBEB}
+.mian-main{width:1200px; line-height: 43px; margin-left:auto; margin-right: auto;}
+.mian-main .lwz{ display: inline-block;float:left;}
+.mian-main .lwz a{float:left; font-size:14px; color:#999999;}
+.mian-main .lwz span{font-size:12px; color:#999999;float:left; padding:0px 10px;}
+.mian-main .lwz strong{font-size:16px; color:#333333; float:left;}
+
+.mian-main .rshua{ display: inline-block; float:right;}
+.mian-main .rshua input{width:15px; height:15px; float:left; margin:14px 10px 0px 0px;}
+.mian-main .rshua label{float:left; font-size:14px;color:#666666;}
+.mian-main .rshua label b{color:#cc0000; font-weight: normal;}
+.mian-main .rshua a{float:left; background-color: #e5e5e5; font-size:15px; line-height: 17px; border-radius: 5px; padding:3px 10px; color:#666666; margin:10px 0px 0px 10px;}
+.mian-main .rshua a:hover{ text-decoration: none; background-color:#cccccc}
+.new-wrapper{width:1200px; overflow: hidden;   background-color:#ffffff; margin:20px auto; padding-bottom: 40px;}
+.new-title{width:100%;  height:56px; float:left; border-bottom:3px solid #F1F1F1;}
+.new-title span.span-lm{float:left; font-size:18px; color:#333333;margin-left:106px; line-height: 56px;}
+.new-title span.span-bt{float:left; font-size:18px; color:#333333;margin-left:290px; line-height: 56px;}
+.new-title span.span-time{float:right; font-size:18px; color:#333333;margin-right:138px; line-height: 56px;}
+.new-list{width:100%;float:left; margin-top: 10px;}
+.new-list ul{margin-left:30px; margin-right: 30px; overflow:hidden;}
+.new-list ul li{width:100%; float:left; font-size:16px; line-height: 36px;}
+.new-list ul hr{width:100%;float:left; height:1px; background-color: #F1F1F1; margin: 15px 0px;}
+.new-list ul li strong{width:130px;float:left; text-align: right;}
+.new-list ul li a{float:left; color:#333333; margin-left: 100px;}
+.new-list ul li a:hover{ text-decoration: none;color: #cc0000;}
+.new-list ul li span{width:250px;float:right; text-align: center; font-size:14px;color:#999999}
+.new-list ul li span b{font-weight: normal; padding-left: 25px;}
+
+
+
+
+
+
+
