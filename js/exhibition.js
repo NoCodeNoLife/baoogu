@@ -40,14 +40,16 @@ $(function () {
         var zhInput = getByClass(document, 'zh-input');
         var oTip = getByClass(document, 'zh-tip');
         var zhInput1 = getByClass(document, 'zh-input1');
+        var oTip1 = getByClass(document, 'zh-tip1');
 
         zhInput[0].onfocus = function () {
             oTip[0].style.display = 'none';
-
+            this.value = '';
         };
         zhInput[0].onblur = function () {
-            if (zhInput[0].value == '')//
+            if (zhInput[0].value == ''){
                 oTip[0].style.display = 'block';
+            }
         };
         oTip[0].onclick = function () {
             this.style.display = 'none';
@@ -57,9 +59,13 @@ $(function () {
         zhInput1[0].onfocus = function () {
             this.value = '';
         };
-        zhInput1[0].onblur = function () {
-            if (this.value == '') {
-                this.value = '请输入起止时间';
+        document.onclick = function () {
+            if(zhInput1[0].value == ''){
+                oTip1[0].style.opacity = 1;
+                zhInput1[0].style.opacity = 0;
+            } else{
+                oTip1[0].style.opacity = 0;
+                zhInput1[0].style.opacity = 1;
             }
         };
     })();
@@ -239,19 +245,5 @@ $(function () {
     makeUpSelect('zh-type');
     makeUpSelect('industry');
     makeUpSelect('status');
-
-    //展会中心日历提示文字
-    $(".rili").focusin(function(){
-        if(this.value=='请输入起止时间'){
-            this.value='';
-            $(this).css({"color":"#666666"})
-        }
-    });
-    $(".rili").focusout(function(){
-        if(this.value==''){
-            this.value='请输入起止时间';
-            $(this).css({"color":"#999999"})
-        }
-    });
 
 });
