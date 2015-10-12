@@ -83,13 +83,6 @@ $(function () {
         };
     })();
 
-    //起止时间日历插件初始化
-    $('#daterangepicker').dateRangePicker(
-        {
-            separator: ' 至 ',
-            language: 'cn'
-        }
-    );
     //时间轴
     (function () {
         var sliderIcon = $('.slider-icon');
@@ -259,4 +252,11 @@ $(function () {
     makeUpSelect('industry');
     makeUpSelect('status');
 
+    //起止时间日历插件初始化
+    $('#daterangepicker').dateRangePicker(
+        {
+            separator: ' 至 ',
+            language: 'cn'
+        }
+    );
 });
