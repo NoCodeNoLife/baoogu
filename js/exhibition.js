@@ -23,7 +23,7 @@ $(function () {
         function testAuto() {
             var textId = getByClass(document, 'zh-text');
 
-            for(var i=0; i< textId.length;i++){
+            for (var i = 0; i < textId.length; i++) {
                 var nowLeng = textId[i].innerHTML.length;
                 if (nowLeng > 65) {
                     var nowWord = textId[i].innerHTML.substr(0, 65) + '······';
@@ -47,7 +47,7 @@ $(function () {
             this.value = '';
         };
         zhInput[0].onblur = function () {
-            if (zhInput[0].value == ''){
+            if (zhInput[0].value == '') {
                 oTip[0].style.display = 'block';
             }
         };
@@ -59,13 +59,26 @@ $(function () {
         zhInput1[0].onfocus = function () {
             this.value = '';
         };
+
         document.onclick = function () {
-            if(zhInput1[0].value == ''){
-                oTip1[0].style.opacity = 1;
-                zhInput1[0].style.opacity = 0;
-            } else{
-                oTip1[0].style.opacity = 0;
-                zhInput1[0].style.opacity = 1;
+            if (zhInput1[0].value == '') {
+                function tips(obj,name,val){
+                    if(name == 'opacity'){
+                        obj.style.opacity = val;
+                        obj.style.filter = 'alpha(opacity:val)';
+                    }
+                }
+                tips(oTip1[0],'opacity',1);
+                tips(zhInput1[0],'opacity',0);
+            } else {
+                function tips(obj,name,val){
+                    if(name == 'opacity'){
+                        obj.style.opacity = val;
+                        obj.style.filter = 'alpha(opacity:val)';
+                    }
+                }
+                tips(oTip1[0],'opacity',0);
+                tips(zhInput1[0],'opacity',1);
             }
         };
     })();
@@ -80,7 +93,7 @@ $(function () {
     //时间轴
     (function () {
         var sliderIcon = $('.slider-icon');
-       // var sliderHover = $('.sliderHover');
+        // var sliderHover = $('.sliderHover');
         var sliderLi = $('.zh-timeLine li');
         //var sliderMove = $('.zh-timeLine a');
         var sliderActive = $('.zh-timeLine li a');

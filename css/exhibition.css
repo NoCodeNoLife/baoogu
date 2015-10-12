@@ -181,7 +181,7 @@ body {
 .zh-list {
     width: 100%;
     height: auto;
-
+    overflow: hidden;
 }
 
 .zh-list div {

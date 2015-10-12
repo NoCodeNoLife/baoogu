@@ -24,12 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exhibition.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exhibition.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exhibition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69138277" vertical-offset="7020" max-vertical-offset="12840">
-              <caret line="257" column="58" selection-start-line="257" selection-start-column="51" selection-end-line="257" selection-end-column="58" />
+            <state vertical-scroll-proportion="129.35715" vertical-offset="11842" max-vertical-offset="12840">
+              <caret line="274" column="54" selection-start-line="274" selection-start-column="54" selection-end-line="274" selection-end-column="54" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exhibition.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/exhibition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7795958" vertical-offset="1650" max-vertical-offset="3210">
+              <caret line="82" column="10" selection-start-line="62" selection-start-column="8" selection-end-line="82" selection-end-column="10" />
+              <folding>
+                <element signature="e#2828#2896#0" expanded="false" />
+                <element signature="e#2931#6086#0" expanded="false" />
+                <element signature="e#3203#3250#0" expanded="false" />
+                <element signature="e#3612#3657#0" expanded="false" />
+                <element signature="e#6126#7397#0" expanded="false" />
+                <element signature="e#7431#8798#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,12 +60,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/libs/daterangepicker.css" />
-        <option value="$PROJECT_DIR$/css/exhibition.css" />
         <option value="$USER_HOME$/Desktop/daterangepicker.css" />
-        <option value="$PROJECT_DIR$/js/exhibition.js" />
-        <option value="$PROJECT_DIR$/exhibition.html" />
-        <option value="$USER_HOME$/Desktop/exhibition.js" />
         <option value="$USER_HOME$/Desktop/exhibition.css" />
+        <option value="$PROJECT_DIR$/exhibition.html" />
+        <option value="$PROJECT_DIR$/css/exhibition.css" />
+        <option value="$USER_HOME$/Desktop/常用/Javascript练习/move.js" />
+        <option value="$USER_HOME$/Desktop/rightStyle.css" />
+        <option value="$USER_HOME$/Desktop/exhibition.js" />
+        <option value="$PROJECT_DIR$/js/exhibition.js" />
       </list>
     </option>
   </component>
@@ -112,6 +131,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baoogu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baoogu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -158,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -228,56 +261,56 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/exhibition - 副本.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96342635" vertical-offset="1001" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="-0.7035611" vertical-offset="731" max-vertical-offset="2040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/exhibition.js">
+    <entry file="file://$USER_HOME$/Desktop/常用/Javascript练习/move.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1391" max-vertical-offset="2820">
-          <caret line="70" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="e#2333#2401#0" expanded="false" />
-            <element signature="e#2436#5590#0" expanded="false" />
-            <element signature="e#2707#2754#0" expanded="false" />
-            <element signature="e#3116#3161#0" expanded="false" />
-            <element signature="e#5630#6901#0" expanded="false" />
-            <element signature="e#6935#8302#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="2190">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/exhibition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2130">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.79788256" vertical-offset="1091" max-vertical-offset="2490">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/exhibition.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.79661" vertical-offset="10474" max-vertical-offset="41010">
-          <caret line="392" column="29" selection-start-line="391" selection-start-column="3" selection-end-line="392" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/exhibition.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1" vertical-offset="10739" max-vertical-offset="30300">
-          <caret line="395" column="14" selection-start-line="395" selection-start-column="14" selection-end-line="395" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.41963425" vertical-offset="11324" max-vertical-offset="41010">
+          <caret line="392" column="29" selection-start-line="391" selection-start-column="4" selection-end-line="392" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exhibition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69138277" vertical-offset="7020" max-vertical-offset="12840">
-          <caret line="257" column="58" selection-start-line="257" selection-start-column="51" selection-end-line="257" selection-end-column="58" />
+        <state vertical-scroll-proportion="129.35715" vertical-offset="11842" max-vertical-offset="12840">
+          <caret line="274" column="54" selection-start-line="274" selection-start-column="54" selection-end-line="274" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/exhibition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7795958" vertical-offset="1650" max-vertical-offset="3210">
+          <caret line="82" column="10" selection-start-line="62" selection-start-column="8" selection-end-line="82" selection-end-column="10" />
+          <folding>
+            <element signature="e#2828#2896#0" expanded="false" />
+            <element signature="e#2931#6086#0" expanded="false" />
+            <element signature="e#3203#3250#0" expanded="false" />
+            <element signature="e#3612#3657#0" expanded="false" />
+            <element signature="e#6126#7397#0" expanded="false" />
+            <element signature="e#7431#8798#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
