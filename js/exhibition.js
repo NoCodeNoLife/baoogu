@@ -65,7 +65,7 @@ $(function () {
                 function tips(obj,name,val){
                     if(name == 'opacity'){
                         obj.style.opacity = val;
-                        obj.style.filter = 'alpha(opacity:val)';
+                        obj.style.filter = 'alpha(opacity:'+val*100+')';
                     }
                 }
                 tips(oTip1[0],'opacity',1);
@@ -74,7 +74,7 @@ $(function () {
                 function tips(obj,name,val){
                     if(name == 'opacity'){
                         obj.style.opacity = val;
-                        obj.style.filter = 'alpha(opacity:val)';
+                        obj.style.filter = 'alpha(opacity:'+val*100+')';
                     }
                 }
                 tips(oTip1[0],'opacity',0);
