@@ -79,6 +79,8 @@ $(function () {
                 }
                 tips(oTip1[0],'opacity',0);
                 tips(zhInput1[0],'opacity',1);
+                alert(oTip1[0].style.filter+':');
+                alert( zhInput1[0].style.filter+':' )
             }
         };
     })();
